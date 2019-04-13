@@ -1,0 +1,52 @@
+.galery-img {
+    width: 200px;
+
+}
+
+.banner-img {
+    width: 800px;
+    padding: 15px;
+    
+}
+
+.galery-container {
+    width: 1000px;
+    padding: 15px;
+
+
+}
+
+.galery-card {
+    width: 250px;
+    opacity: 0.8;
+    
+}
+
+.text-over-img{
+    position: relative;
+  
+}
+
+.title-block{
+    position: absolute;
+    width: 300px;
+    bottom: 300px;
+    right: 600px;
+    background-color: grey;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.8;
+
+}
+
+.img-text {
+    position: absolute;
+    width: 100px;
+    top: 50%;   
+    left: 10%;
+    font-size: 20px;
+    color: whitesmoke;
+    
+
+}

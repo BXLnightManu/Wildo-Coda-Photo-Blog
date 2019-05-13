@@ -35,14 +35,16 @@
 
 .blog-img:hover .img-description {
     display: block;
+    cursor: pointer;
+
 }
 .blog-img:hover .img {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .img-description h2 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .img-description p {
-    color: white;
+    color: rgb(0, 0, 0);;
 }

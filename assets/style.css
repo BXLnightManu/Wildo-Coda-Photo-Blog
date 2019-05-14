@@ -1,33 +1,50 @@
-@import './style-index.css';
-@import './style-category.css';
-@import './style-article.css';
-@import './style-contact.css';
-@import './style-aboutus.css';
+@import "./style-index.css";
+@import "./style-category.css";
+@import "./style-article.css";
+@import "./style-contact.css";
+@import "./style-aboutus.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One");
+
+header {
+    font-family: "Poiret One", cursive;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+/* contact.html part */
+
+#form {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+}
 
 .carousel-inner {
-    height : 250px;
+    height: 250px;
 }
 
 .carousel-item {
-    height : 250px;
+    height: 250px;
 }
 
 #carousel-1 {
-    height : 250px;
+    height: 250px;
     background-image: url(./images/BXX.jpg);
-    background-size:  100% 250px; 
+    background-size: 100% 250px;
 }
 
 #carousel-2 {
-    height : 250px;
+    height: 250px;
     background-image: url(./images/BX1.png);
-    background-size: 100% ; 
+    background-size: 100%;
 }
 
 #carousel-3 {
-    height : 250px;
+    height: 250px;
     background-image: url(./images/BX2.png);
-    background-size: 100% 250px; 
+    background-size: 100% 250px;
 }
 #footer-margin {
     margin-top: 2%;

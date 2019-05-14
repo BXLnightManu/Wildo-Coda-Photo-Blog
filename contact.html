@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <title>Contact</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css">
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="./assets/style.css"
+        />
     </head>
 
     <body>
         <header class="container">
             <div id="header">
-                <div class="header-title" id="myLinksParent">
-                    <button id="headerButton" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()" onclick="burgerMenuClick()"><img src="./assets/images/burger-menu.svg" alt="burger menu"></button>
-                    <div id="myLinks">
-                        <a href="./index.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Home</div></a>
-                        <a href="./category.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Category</div></a>
-                        <a href="./contact.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">Contact</div></a>
-                        <a href="./about-us.html" onmouseover="burgerMenuOver()" onmouseout="burgerMenuOut()"><div class="sub-link">About us</div></a>
-                    </div>
+                <div class="header-title">
+                    <img
+                        id="nav-menu"
+                        src="./assets/images/burger-menu.svg"
+                        alt="burger menu"
+                    />
+                    <h1>WILDO CODA PHOTO BLOG</h1>
                 </div>
                 <div id="titles">
-                    <h1>WILDO CODA PHOTO BLOG</h1>
                     <h2>The beauty of Brussels</h2>
-                    <p>This is the introduction of the photo blog - city of Brussels</p>
+                    <p>
+                        This is the introduction of the photo blog - city of
+                        Brussels
+                    </p>
                 </div>
             </div>
-            
         </header>
         <section id="contact-header" class="container">
             <h1 class="font">Contact me</h1>
-            <p class="font">Here you can give me your comments, suggest ideas, encouragements (yes, it never hurts). Be sure
-                that your email isn't going to the inbox abyss, never to be seen or heard form again.</p>
+            <p class="font">
+                Here you can give me your comments, suggest ideas,
+                encouragements (yes, it never hurts). Be sure that your email
+                isn't going to the inbox abyss, never to be seen or heard form
+                again.
+            </p>
             <a href="#form"><div id="arrow-icon-container"></div></a>
         </section>
         <div class="container">
@@ -41,47 +54,72 @@
                     <form action="action.js" method="GET">
                         <div class="form-group">
                             <label for="pseudoNameInput">My pseudo</label>
-                            <input id="pseudoNameInput" class="form-control" type="text" name="pseudoname"
-                                placeholder="poisson.fecond">
+                            <input
+                                id="pseudoNameInput"
+                                class="form-control"
+                                type="text"
+                                name="pseudoname"
+                                placeholder="poisson.fecond"
+                            />
                         </div>
                         <div class="form-group">
                             <label for="emailInput">My email</label>
-                            <input id="emailInput" class="form-control" type="email" name="email"
-                                placeholder="poisson.fecond@ocean.com">
+                            <input
+                                id="emailInput"
+                                class="form-control"
+                                type="email"
+                                name="email"
+                                placeholder="poisson.fecond@ocean.com"
+                            />
                         </div>
                         <div class="form-group">
                             <label for="subjectSelection">Theme</label>
-                            <select class="form-control" name="subject" id="subjectSelection">
-                                <option value="comment" selected>Comments/Opinion</option>
+                            <select
+                                class="form-control"
+                                name="subject"
+                                id="subjectSelection"
+                            >
+                                <option value="comment" selected
+                                    >Comments/Opinion</option
+                                >
                                 <option value="suggestion">Suggestions</option>
                                 <option value="other">Something else</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="messageInput">Your message</label>
-                            <textarea id="messageInput" class="form-control" name="message" rows="3"
-                                required>Feel free !</textarea>
+                            <textarea
+                                id="messageInput"
+                                class="form-control"
+                                name="message"
+                                rows="3"
+                                required
+                            >
+Feel free !</textarea
+                            >
                         </div>
-                        <button type="button" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary">
+                            Submit
+                        </button>
                     </form>
                 </div>
             </section>
         </div>
-        <script src="./assets/burgermenu.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-    <!-- <script src="./assets/scrolldown.js"></script> -->
-<footer id="footer-margin">
-            
-    <ul class="navbar-footer">
-            
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="Category.html">Categories</a></li>
-        <li><a href="About-us.html">About us</a></li>
-        <li><a href="Contact.html">Contact us</a></li>
-    </ul>
-    <p class="title-footer">Wildo Coda Photo Blog</p>
-
-</footer>
+        <!-- <script src="./assets/burgermenu.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+        <!-- <script src="./assets/scrolldown.js"></script> -->
+        <footer id="footer-margin">
+            <ul class="navbar-footer">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact.html" class="active">Contact us</a></li>
+            </ul>
+            <p class="title-footer">Wildo Coda Photo Blog</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./assets/scrolldown.js"></script>
+        <script src="assets/menu-wrapper.js"></script>
+        <script src="assets/menu.js"></script>
     </body>
-
 </html>

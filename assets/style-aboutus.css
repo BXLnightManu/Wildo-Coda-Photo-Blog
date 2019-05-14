@@ -1,12 +1,10 @@
 .history {
     text-align: justify;
     display: block;
-  
 }
 
 .titre {
     font-size: 2.5rem;
-    
 }
 
 .row {
@@ -40,7 +38,6 @@
     color: white;
     text-align: center;
     margin-top: 20px;
-  
 }
 .logo {
     text-align: center;
@@ -90,27 +87,5 @@
 }*/
 
 .carousel-inner {
-    height : 250px;
-}
-
-.carousel-item {
-    height : 250px;
-}
-
-#carousel-1 {
-    height : 250px;
-    background-image: url(./images/BX.png);
-    background-size: 100% 250px; 
-}
-
-#carousel-2 {
-    height : 250px;
-    background-image: url(./images/BX1.png);
-    background-size: 100% ; 
-}
-
-#carousel-3 {
-    height : 250px;
-    background-image: url(./images/BX2.png);
-    background-size: 100% 250px; 
+    height: 250px;
 }

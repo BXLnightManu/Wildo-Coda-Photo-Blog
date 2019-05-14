@@ -1,11 +1,6 @@
 body {
     background-color: rgb(250, 250, 250);
 }
-
-#header {
-    display: flex;
-}
-
 #myLinksParent {
     width: 25%;
     display: flex;
@@ -45,9 +40,9 @@ body {
 }
 
 #contact-header {
-  background-image: url(./images/contact-us-01.jpg);
-  background-size: cover;
-  position: relative;
+    background-image: url(./images/contact-us-01.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 #contact-header h1,
@@ -180,7 +175,7 @@ body {
 }
 
 .font {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
 }
